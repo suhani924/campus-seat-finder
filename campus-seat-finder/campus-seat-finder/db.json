@@ -1,0 +1,384 @@
+{
+  "seats": [
+    {
+      "id": 1,
+      "seatId": "A1",
+      "row": "A",
+      "number": 1,
+      "location": "Main Library",
+      "status": "available",
+      "type": "Window"
+    },
+    {
+      "id": 2,
+      "seatId": "A2",
+      "row": "A",
+      "number": 2,
+      "location": "Main Library",
+      "status": "occupied",
+      "type": "Regular"
+    },
+    {
+      "id": 3,
+      "seatId": "A3",
+      "row": "A",
+      "number": 3,
+      "location": "Main Library",
+      "status": "reserved",
+      "type": "Regular"
+    },
+    {
+      "id": 4,
+      "seatId": "A4",
+      "row": "A",
+      "number": 4,
+      "location": "Main Library",
+      "status": "available",
+      "type": "Regular"
+    },
+    {
+      "id": 5,
+      "seatId": "A5",
+      "row": "A",
+      "number": 5,
+      "location": "Main Library",
+      "status": "available",
+      "type": "Power Socket"
+    },
+    {
+      "id": 6,
+      "seatId": "A6",
+      "row": "A",
+      "number": 6,
+      "location": "Main Library",
+      "status": "available",
+      "type": "Regular"
+    },
+    {
+      "id": 7,
+      "seatId": "A7",
+      "row": "A",
+      "number": 7,
+      "location": "Main Library",
+      "status": "occupied",
+      "type": "Regular"
+    },
+    {
+      "id": 8,
+      "seatId": "A8",
+      "row": "A",
+      "number": 8,
+      "location": "Main Library",
+      "status": "available",
+      "type": "Regular"
+    },
+    {
+      "id": 9,
+      "seatId": "A9",
+      "row": "A",
+      "number": 9,
+      "location": "Main Library",
+      "status": "available",
+      "type": "Regular"
+    },
+    {
+      "id": 10,
+      "seatId": "A10",
+      "row": "A",
+      "number": 10,
+      "location": "Main Library",
+      "status": "available",
+      "type": "Power Socket"
+    },
+    {
+      "id": 11,
+      "seatId": "B1",
+      "row": "B",
+      "number": 1,
+      "location": "Main Library",
+      "status": "available",
+      "type": "Window"
+    },
+    {
+      "id": 12,
+      "seatId": "B2",
+      "row": "B",
+      "number": 2,
+      "location": "Main Library",
+      "status": "occupied",
+      "type": "Regular"
+    },
+    {
+      "id": 13,
+      "seatId": "B3",
+      "row": "B",
+      "number": 3,
+      "location": "Main Library",
+      "status": "available",
+      "type": "Regular"
+    },
+    {
+      "id": 14,
+      "seatId": "B4",
+      "row": "B",
+      "number": 4,
+      "location": "Main Library",
+      "status": "available",
+      "type": "Regular"
+    },
+    {
+      "id": 15,
+      "seatId": "B5",
+      "row": "B",
+      "number": 5,
+      "location": "Main Library",
+      "status": "reserved",
+      "type": "Power Socket"
+    },
+    {
+      "id": 16,
+      "seatId": "B6",
+      "row": "B",
+      "number": 6,
+      "location": "Main Library",
+      "status": "available",
+      "type": "Regular"
+    },
+    {
+      "id": 17,
+      "seatId": "B7",
+      "row": "B",
+      "number": 7,
+      "location": "Main Library",
+      "status": "available",
+      "type": "Regular"
+    },
+    {
+      "id": 18,
+      "seatId": "B8",
+      "row": "B",
+      "number": 8,
+      "location": "Main Library",
+      "status": "available",
+      "type": "Regular"
+    },
+    {
+      "id": 19,
+      "seatId": "B9",
+      "row": "B",
+      "number": 9,
+      "location": "Main Library",
+      "status": "occupied",
+      "type": "Regular"
+    },
+    {
+      "id": 20,
+      "seatId": "B10",
+      "row": "B",
+      "number": 10,
+      "location": "Main Library",
+      "status": "available",
+      "type": "Power Socket"
+    },
+    {
+      "id": 21,
+      "seatId": "C1",
+      "row": "C",
+      "number": 1,
+      "location": "Computer Lab",
+      "status": "available",
+      "type": "Window"
+    },
+    {
+      "id": 22,
+      "seatId": "C2",
+      "row": "C",
+      "number": 2,
+      "location": "Computer Lab",
+      "status": "available",
+      "type": "Regular"
+    },
+    {
+      "id": 23,
+      "seatId": "C3",
+      "row": "C",
+      "number": 3,
+      "location": "Computer Lab",
+      "status": "available",
+      "type": "Regular"
+    },
+    {
+      "id": 24,
+      "seatId": "C4",
+      "row": "C",
+      "number": 4,
+      "location": "Computer Lab",
+      "status": "occupied",
+      "type": "Regular"
+    },
+    {
+      "id": 25,
+      "seatId": "C5",
+      "row": "C",
+      "number": 5,
+      "location": "Computer Lab",
+      "status": "occupied",
+      "type": "Power Socket"
+    },
+    {
+      "id": 26,
+      "seatId": "C6",
+      "row": "C",
+      "number": 6,
+      "location": "Computer Lab",
+      "status": "available",
+      "type": "Regular"
+    },
+    {
+      "id": 27,
+      "seatId": "C7",
+      "row": "C",
+      "number": 7,
+      "location": "Computer Lab",
+      "status": "available",
+      "type": "Regular"
+    },
+    {
+      "id": 28,
+      "seatId": "C8",
+      "row": "C",
+      "number": 8,
+      "location": "Computer Lab",
+      "status": "available",
+      "type": "Regular"
+    },
+    {
+      "id": 29,
+      "seatId": "C9",
+      "row": "C",
+      "number": 9,
+      "location": "Computer Lab",
+      "status": "available",
+      "type": "Regular"
+    },
+    {
+      "id": 30,
+      "seatId": "C10",
+      "row": "C",
+      "number": 10,
+      "location": "Computer Lab",
+      "status": "available",
+      "type": "Power Socket"
+    },
+    {
+      "id": 31,
+      "seatId": "D1",
+      "row": "D",
+      "number": 1,
+      "location": "Computer Lab",
+      "status": "occupied",
+      "type": "Window"
+    },
+    {
+      "id": 32,
+      "seatId": "D2",
+      "row": "D",
+      "number": 2,
+      "location": "Computer Lab",
+      "status": "available",
+      "type": "Regular"
+    },
+    {
+      "id": 33,
+      "seatId": "D3",
+      "row": "D",
+      "number": 3,
+      "location": "Computer Lab",
+      "status": "available",
+      "type": "Regular"
+    },
+    {
+      "id": 34,
+      "seatId": "D4",
+      "row": "D",
+      "number": 4,
+      "location": "Computer Lab",
+      "status": "available",
+      "type": "Regular"
+    },
+    {
+      "id": 35,
+      "seatId": "D5",
+      "row": "D",
+      "number": 5,
+      "location": "Computer Lab",
+      "status": "available",
+      "type": "Power Socket"
+    },
+    {
+      "id": 36,
+      "seatId": "D6",
+      "row": "D",
+      "number": 6,
+      "location": "Computer Lab",
+      "status": "available",
+      "type": "Regular"
+    },
+    {
+      "id": 37,
+      "seatId": "D7",
+      "row": "D",
+      "number": 7,
+      "location": "Computer Lab",
+      "status": "available",
+      "type": "Regular"
+    },
+    {
+      "id": 38,
+      "seatId": "D8",
+      "row": "D",
+      "number": 8,
+      "location": "Computer Lab",
+      "status": "occupied",
+      "type": "Regular"
+    },
+    {
+      "id": 39,
+      "seatId": "D9",
+      "row": "D",
+      "number": 9,
+      "location": "Computer Lab",
+      "status": "occupied",
+      "type": "Regular"
+    },
+    {
+      "id": 40,
+      "seatId": "D10",
+      "row": "D",
+      "number": 10,
+      "location": "Computer Lab",
+      "status": "available",
+      "type": "Power Socket"
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "seatId": "A3",
+      "studentName": "Rahul Shah",
+      "rollNo": "RW001",
+      "date": "2026-10-03",
+      "time": "10:00",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "seatId": "B5",
+      "studentName": "Priya Patel",
+      "rollNo": "RW002",
+      "date": "2026-10-03",
+      "time": "11:30",
+      "status": "active"
+    }
+  ]
+}

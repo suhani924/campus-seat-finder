@@ -1,0 +1,80 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #f3f4f6; color: #222; }
+h2 { margin: 0 0 16px; }
+h3 { margin: 0 0 10px; }
+button { font: inherit; cursor: pointer; }
+button:disabled { opacity: .6; cursor: not-allowed; }
+
+.layout { display: flex; min-height: 100vh; }
+.sidebar { width: 200px; background: #1f2937; color: #fff; padding: 20px 12px; }
+.sidebar h1 { font-size: 20px; margin: 0 0 20px 8px; }
+.nav { display: block; width: 100%; text-align: left; background: none; border: none; color: #d1d5db; padding: 10px 12px; border-radius: 4px; margin-bottom: 4px; }
+.nav:hover { background: #374151; }
+.nav.active { background: #2563eb; color: #fff; }
+
+.main { flex: 1; min-width: 0; }
+.header { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; background: #fff; padding: 12px 20px; border-bottom: 1px solid #ddd; }
+.header select { padding: 6px 8px; }
+.header .date { flex: 1; color: #555; }
+.header .profile { font-weight: bold; }
+.content { padding: 20px; }
+.notice { background: #dbeafe; color: #1e3a8a; padding: 10px 20px; }
+
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin-bottom: 20px; }
+.stat { background: #fff; border: 1px solid #ddd; border-radius: 6px; padding: 16px; border-top: 4px solid #6b7280; }
+.stat.available { border-top-color: #16a34a; }
+.stat.occupied { border-top-color: #dc2626; }
+.stat.reserved { border-top-color: #d97706; }
+.stat-value { font-size: 28px; font-weight: bold; }
+.stat-label { color: #555; font-size: 14px; }
+
+.card { background: #fff; border: 1px solid #ddd; border-radius: 6px; padding: 16px; }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: 8px; border-bottom: 1px solid #eee; }
+
+.seat-page { display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap; }
+.seat-main { flex: 1; min-width: 300px; }
+.details { width: 300px; }
+.details-top { display: flex; justify-content: space-between; align-items: center; }
+.details p { margin: 6px 0; }
+.booking-info { background: #f9fafb; border: 1px solid #eee; padding: 8px; border-radius: 4px; margin: 10px 0; }
+
+.filters { display: flex; gap: 8px; margin-bottom: 14px; flex-wrap: wrap; }
+.filter { padding: 6px 14px; border: 1px solid #ccc; background: #fff; border-radius: 4px; }
+.filter.active { background: #2563eb; color: #fff; border-color: #2563eb; }
+
+.legend { margin-bottom: 10px; font-size: 14px; }
+.dot { display: inline-block; width: 12px; height: 12px; border-radius: 2px; margin: 0 4px 0 12px; vertical-align: middle; border: 1px solid; }
+.dot:first-child { margin-left: 0; }
+.dot.available, .seat.available { background: #dcfce7; border-color: #16a34a; }
+.dot.occupied, .seat.occupied { background: #fee2e2; border-color: #dc2626; }
+.dot.reserved, .seat.reserved { background: #fef3c7; border-color: #d97706; }
+
+.seat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(60px, 1fr)); gap: 8px; }
+.seat { padding: 14px 0; border: 2px solid; border-radius: 4px; font-weight: bold; color: #222; }
+.seat.selected { outline: 3px solid #2563eb; }
+
+.badge { padding: 2px 8px; border-radius: 10px; font-size: 13px; text-transform: capitalize; border: 1px solid; }
+.badge.available { background: #dcfce7; border-color: #16a34a; }
+.badge.occupied { background: #fee2e2; border-color: #dc2626; }
+.badge.reserved { background: #fef3c7; border-color: #d97706; }
+
+.form { display: flex; flex-direction: column; gap: 10px; margin-top: 10px; max-width: 360px; }
+.form label { display: flex; flex-direction: column; font-size: 14px; gap: 4px; }
+.form input { padding: 8px; border: 1px solid #ccc; border-radius: 4px; }
+.form button, .state button { background: #2563eb; color: #fff; border: none; padding: 9px; border-radius: 4px; }
+.danger { background: #dc2626; color: #fff; border: none; padding: 7px 12px; border-radius: 4px; }
+.link { background: none; border: none; color: #2563eb; }
+
+.empty { color: #666; }
+.state { text-align: center; padding: 40px; }
+.state.error { color: #b91c1c; }
+.state button { padding: 8px 20px; }
+
+@media (max-width: 700px) {
+  .layout { flex-direction: column; }
+  .sidebar { width: 100%; padding: 10px; }
+  .sidebar nav { display: flex; flex-wrap: wrap; gap: 4px; }
+  .nav { width: auto; }
+  .details { width: 100%; }
+}
